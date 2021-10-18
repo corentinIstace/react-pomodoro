@@ -1,0 +1,28 @@
+{
+  "name": "react-pomodoro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corentinIstace/react-pomodoro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corentinIstace/react-pomodoro/issues"
+  },
+  "homepage": "https://github.com/corentinIstace/react-pomodoro#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
