@@ -1,18 +1,17 @@
-import React from "react";
-function app() {
+import Display from "./components/display-param";
+
+function App() {
+    const seconds = 1500;
     return (
         <>
             <div id={"timer_container"}>
-                <h1>{"timer"}</h1>
+                <Display seconds={seconds} />
             </div>
             <div id={"buttons_container"}>
                 <button type={"button"} id={"less_button"}>
                     <i className={"far fa-minus-square"} />
                 </button>
-                <button type={"button"} id={"start_button"}>
-                    {"start"}
-                    <i className={"far fa-play-circle"} />
-                </button>
+                {/* <Start Start={Start} /> */}
                 <button type={"button"} id={"breack_button"}>
                     {"breack"}
                     <i className={"far fa-pause-circle"} />
@@ -25,11 +24,11 @@ function app() {
                     {"reset"}
                     <i className={"far fa-stop-circle"} />
                 </button>
-                <button type={"button"} id={"more_button"}>
+                <button type={"button"} id={"add_button"}>
                     <i className={"far fa-plus-square"} />
                 </button>
             </div>
         </>
     );
 }
-export default app;
+export default App;
